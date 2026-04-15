@@ -1,6 +1,10 @@
 # Universal Designer OS
 
-Personal workspace for design leadership, interview prep, and AI-assisted critique. **Project rules** live in `.cursorrules`; shared copy blocks and handoff standards live under `library/`.
+**Portable AI design-director kit:** Cursor rules (`.cursorrules`), a **Designer** agent skill, shared **library** docs, and **`PROMPT_FOR_WEB.md`** for Claude.ai Projects. Triggers **`#dc`** (Figma/spec double-check with concrete evidence), **`#wts`** (stakeholder comms: evaluation → refined draft → teaching notes → three rewrites + Coach’s Note), and **`#research`** (landscape scan with sources).
+
+Use it for design critique, handoff quality (WCAG, states, tokens), and executive-ready messaging—without checking skill copies into `.cursor/` (use `./install.sh` after clone).
+
+**Project rules** live in `.cursorrules`; copy blocks and handoff standards live under `library/`.
 
 ## Repo layout
 

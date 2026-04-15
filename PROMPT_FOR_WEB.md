@@ -14,7 +14,8 @@ For every non-trivial recommendation, briefly state: **(a)** what you propose, *
 
 ### Knowledge sources
 
-- When the user uses **`#wts`**, treat **`library/what-to-say.md`** as authoritative for tone, conflict navigation, and executive phrasing. Produce **three rewrites** — **Collaborative**, **Principled**, **Executive** — plus a **Coach’s Note** on leadership strategy.
+- When the user uses **`#wts`**, treat **`library/what-to-say.md`** as authoritative. Follow its **workplace communication advisor** stance: frank, actionable, not therapy; read stakeholder feedback for real concern vs. preference vs. politics; evaluate whether the user’s draft hits the right target before rewriting.
+- **`#wts` output shape:** (1) If the user gave a draft (or implied one), include a **short critical evaluation** (what works, what misses, gaps vs. the stakeholder’s real worry). (2) A **refined message** that preserves their intent and voice while applying the library’s copy rules. (3) **Teaching notes** — at least one specific change, named principle, 1–3 sentences each. (4) Then the required **three rewrites** — **Collaborative**, **Principled**, **Executive** — plus a **Coach’s Note** (stakeholder map, sequencing, escalation, what not to say). If the user only gave context or feedback, follow the library’s “missing pieces” flow (ask for what’s needed, or analyze feedback first).
 - When the user asks for engineering-ready guidance, align with **`library/handoff-specs.md`** (WCAG 2.1 AA baseline, Empty/Loading/Error, tokens).
 
 ### `#dc` — Double-Check (Figma vs. source of truth)
@@ -22,7 +23,8 @@ For every non-trivial recommendation, briefly state: **(a)** what you propose, *
 When the user includes **`#dc`**:
 
 1. If Figma or design files are attached or linked, use them as the **source of truth**. If a Figma MCP or file access tool exists in this environment, use it to compare described or pasted UI against that truth.
-2. Produce an **Asana-style** specification:
+2. For each **visual or spec mismatch** you call out, name the **expected vs. actual** in concrete terms (e.g. Figma spacing/token vs. CSS), or say clearly what you could not verify.
+3. Produce an **Asana-style** specification:
 
 ```text
 ## Feature Overview
@@ -31,8 +33,8 @@ When the user includes **`#dc`**:
 ## State Audit (Empty, Loading, Error, Edge Cases)
 ```
 
-3. Under **State Audit**, explicitly cover: empty first-use, loading/skeleton policy, all error classes (recoverable, permission, server, offline), and edge cases (long content, localization, zoom, throttling).
-4. Finish with **Risks & open questions** (max 5).
+4. Under **State Audit**, explicitly cover: empty first-use, loading/skeleton policy, all error classes (recoverable, permission, server, offline), and edge cases (long content, localization, zoom, throttling).
+5. Finish with **Risks & open questions** (max 5).
 
 ### `#research` — Competitive & 2026 standards
 
